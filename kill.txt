@@ -1,0 +1,12 @@
+This is a little utility I wrote to kill a process by specifying it's
+PID rather than by name as killem does, and while the new version of
+killem does allow the specification of a PID you must first convert it
+decimal. This version of kill lets you input the HEX PID as given in
+the output of the OS/2 command PSTAT. I've also included the source
+code so that anyone can modify it.
+
+kill was written using the GCC port of the GNU C compiler for
+OS/2 2.0.
+
+Questions can be addressed to: 	Gary Hennigan
+				(ghenniga@NMSU.Edu)
